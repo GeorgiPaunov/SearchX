@@ -1,0 +1,59 @@
+@import url("styles/colors.css");
+
+.App {
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+
+.App h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.App .search {
+  position: relative;
+  width: 50rem;
+  margin: 0 auto;
+}
+
+.App .search-input {
+  resize: none;
+  width: 100%;
+  display: block;
+  padding: 1rem 2rem 1rem 3rem;
+  border: 1px solid var(--input-border-color);
+  border-radius: 2rem;
+  outline: none;
+}
+
+.App .search-input.with-suggestions {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.App .suggestions {
+  position: absolute;
+  width: 100%;
+  padding: 1rem 0 2rem 0;
+  background-color: white;
+  border: 1px solid var(--input-border-color);
+  border-top: none;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.App .results {
+  max-width: 80rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.App .results .results-metadata {
+  margin-bottom: 2rem;
+  color: var(--text-light-color);
+}
+
+.App .error-message {
+  text-align: center;
+  margin-top: 5rem;
+}

@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "title": "React js",
+    "url": "https://react.dev/",
+    "description": "React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript."
+  },
+  {
+    "id": 2,
+    "title": "JSX",
+    "url": "https://facebook.github.io/jsx/",
+    "description": "JSX is a syntax extension for JavaScript that looks similar to XML or HTML and is used in React to describe what the UI should look like."
+  },
+  {
+    "id": 3,
+    "title": "Components",
+    "url": "https://react.dev/learn/your-first-component",
+    "description": "Components are the building blocks of a React application. They are reusable pieces of UI that can manage their own state and logic."
+  },
+  {
+    "id": 4,
+    "title": "Props",
+    "url": "https://react.dev/learn/passing-props-to-a-component",
+    "description": "Props, short for 'properties', are read-only attributes passed from parent to child components to customize their behavior or appearance."
+  },
+  {
+    "id": 5,
+    "title": "State",
+    "url": "https://react.dev/learn/state-a-components-memory",
+    "description": "State is a built-in object in React components that allows them to track and respond to user inputs, network responses, and other events."
+  },
+  {
+    "id": 6,
+    "title": "Hooks",
+    "url": "https://react.dev/reference/react/hooks",
+    "description": "Hooks are special functions that let you 'hook into' React features like state and lifecycle methods in function components."
+  },
+  {
+    "id": 7,
+    "title": "Effect Hook (useEffect)",
+    "url": "https://react.dev/reference/react/useEffect",
+    "description": "The useEffect Hook lets you perform side effects in function components, such as data fetching, subscriptions, and manual DOM manipulations."
+  },
+  {
+    "id": 8,
+    "title": "Context API",
+    "url": "https://react.dev/learn/passing-data-deeply-with-context",
+    "description": "The Context API allows you to share values like state or functions deeply across a component tree without passing props manually at every level."
+  },
+  {
+    "id": 9,
+    "title": "React Router",
+    "url": "https://reactrouter.com/en/main",
+    "description": "React Router is a popular library for managing navigation and routing in React applications, allowing for dynamic and nested routes."
+  },
+  {
+    "id": 10,
+    "title": "Redux",
+    "url": "https://redux.js.org/",
+    "description": "Redux is a state management library often used with React to manage the global state of an application in a predictable manner."
+  },
+  {
+    "id": 11,
+    "title": "React Fragment",
+    "url": "https://react.dev/reference/react/Fragment",
+    "description": "React Fragments allow you to group a list of children elements without adding extra nodes to the DOM, useful for returning multiple elements from a component."
+  },
+  {
+    "id": 12,
+    "title": "Virtual DOM",
+    "url": "https://refine.dev/blog/react-virtual-dom",
+    "description": "The Virtual DOM is a lightweight representation of the real DOM used by React to optimize updates and improve performance by minimizing direct DOM manipulations."
+  },
+  {
+    "id": 13,
+    "title": "Component Lifecycle",
+    "url": "https://medium.com/@arpitparekh54/understanding-the-react-component-lifecycle-a-deep-dive-into-the-life-of-a-react-component-74813cb8dfb5",
+    "description": "React components have lifecycle methods that allow you to run code at specific points in a component's life, such as when it mounts, updates, or unmounts."
+  },
+  {
+    "id": 14,
+    "title": "Controlled Components",
+    "url": "https://react.dev/learn/sharing-state-between-components#controlled-and-uncontrolled-components",
+    "description": "Controlled components in React are form elements that are controlled by the component's state, ensuring that the state reflects the user's input at all times."
+  },
+  {
+    "id": 15,
+    "title": "Memoization",
+    "url": "https://react.dev/reference/react/memo",
+    "description": "Memoization in React, through the use of React.memo or useMemo, helps optimize performance by caching and reusing results of expensive calculations or components."
+  },
+  {
+    "id": 16,
+    "title": "Error Boundaries",
+    "url": "https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary",
+    "description": "Error Boundaries are React components that catch JavaScript errors anywhere in their child component tree, logging the error and providing a fallback UI."
+  },
+  {
+    "id": 17,
+    "title": "Variables and Data Types",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures",
+    "description": "JavaScript variables can hold different data types such as numbers, strings, objects, and more. Variables are declared using var, let, or const."
+  },
+  {
+    "id": 18,
+    "title": "Functions",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions",
+    "description": "Functions are blocks of code designed to perform a particular task. They are defined using the function keyword and can take arguments and return a value."
+  },
+  {
+    "id": 19,
+    "title": "Closures",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures",
+    "description": "Closures are functions that have access to variables from another function’s scope, allowing them to retain access to that scope even after the outer function has returned."
+  },
+  {
+    "id": 20,
+    "title": "Promises",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises",
+    "description": "Promises represent the eventual completion or failure of an asynchronous operation and allow you to handle asynchronous code in a more readable way."
+  },
+  {
+    "id": 21,
+    "title": "Async/Await",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function",
+    "description": "Async/Await is a syntax for handling asynchronous operations in JavaScript, making asynchronous code look and behave more like synchronous code."
+  },
+  {
+    "id": 22,
+    "title": "Objects",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects",
+    "description": "Objects are collections of properties and methods, allowing you to store and manipulate data in a structured way in JavaScript."
+  },
+  {
+    "id": 23,
+    "title": "Array Methods",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "description": "JavaScript provides numerous methods to work with arrays, such as map, filter, reduce, and forEach, enabling complex data manipulations with ease."
+  },
+  {
+    "id": 24,
+    "title": "Prototype and Prototypal Inheritance",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain",
+    "description": "JavaScript uses prototypal inheritance, meaning that objects inherit properties and methods from other objects through the prototype chain."
+  },
+  {
+    "id": 25,
+    "title": "Event Loop",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop",
+    "description": "The event loop is a mechanism that allows JavaScript to perform non-blocking operations by handling asynchronous events and tasks in a coordinated manner."
+  },
+  {
+    "id": 26,
+    "title": "Scope and Hoisting",
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/Scope",
+    "description": "Scope determines the accessibility of variables and functions in different parts of your code, while hoisting allows function declarations and variables to be used before they are declared."
+  },
+  {
+    "id": 27,
+    "title": "Strict Mode",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode",
+    "description": "Strict mode is a way to opt into a restricted variant of JavaScript, helping catch common coding errors and improving overall code quality."
+  },
+  {
+    "id": 28,
+    "title": "This Keyword",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this",
+    "description": "The 'this' keyword in JavaScript refers to the object that is currently executing the code, with its value depending on the context in which it is used."
+  },
+  {
+    "id": 29,
+    "title": "ES6 Modules",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+    "description": "ES6 modules allow you to break up your JavaScript code into smaller, reusable pieces that can be imported and exported between files."
+  },
+  {
+    "id": 30,
+    "title": "Callbacks",
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/Callback_function",
+    "description": "Callbacks are functions passed as arguments to other functions, allowing you to execute code after a particular task has been completed."
+  },
+  {
+    "id": 31,
+    "title": "Destructuring",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment",
+    "description": "Destructuring is a syntax in JavaScript that allows you to extract values from arrays or properties from objects into distinct variables."
+  },
+  {
+    "id": 32,
+    "title": "Type Annotations",
+    "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html",
+    "description": "Type annotations in TypeScript allow you to explicitly specify the types of variables, function parameters, and return values, enhancing code clarity and type safety."
+  },
+  {
+    "id": 33,
+    "title": "Interfaces",
+    "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#interfaces",
+    "description": "Interfaces define the structure of an object, specifying the types of properties and methods it must have. They are used to enforce type checking and ensure consistency."
+  },
+  {
+    "id": 34,
+    "title": "Generics",
+    "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html",
+    "description": "Generics allow you to create reusable components that can work with a variety of types, providing a way to write flexible and type-safe functions, classes, and interfaces."
+  },
+  {
+    "id": 35,
+    "title": "Union and Intersection Types",
+    "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types",
+    "description": "Union types allow a variable to hold more than one type, while intersection types combine multiple types into one, useful for creating complex type definitions."
+  },
+  {
+    "id": 36,
+    "title": "Type Inference",
+    "url": "https://www.typescriptlang.org/docs/handbook/type-inference.html",
+    "description": "TypeScript's type inference automatically determines the type of a variable based on its value, reducing the need for explicit type annotations."
+  },
+  {
+    "id": 37,
+    "title": "Enums",
+    "url": "https://www.typescriptlang.org/docs/handbook/enums.html",
+    "description": "Enums are a way to define a set of named constants, making it easier to work with a group of related values that represent a specific category or state."
+  },
+  {
+    "id": 38,
+    "title": "Type Aliases",
+    "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases",
+    "description": "Type aliases create new names for existing types, which can simplify complex type definitions and make your code more readable and maintainable."
+  }
+]

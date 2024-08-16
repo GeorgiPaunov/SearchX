@@ -1,0 +1,64 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding: 0.5rem;
+  font: 1.6rem/1.5 Verdana, sans-serif;
+}
+
+button,
+input,
+textarea,
+select,
+option,
+table,
+th,
+td {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.17rem;
+}
+h4 {
+  font-size: 1.12rem;
+}
+h5 {
+  font-size: 0.83rem;
+}
+h6 {
+  font-size: 0.75rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

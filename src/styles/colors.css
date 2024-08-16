@@ -1,0 +1,10 @@
+body {
+  --input-border-color: #dfe1e5;
+
+  --item-hover-color: #f3f5f6;
+  --button-hover-color: #1558d6;
+
+  --text-normal-color: #212121;
+  --text-light-color: #70757a;
+  --text-highlight-color: #52188c;
+}
